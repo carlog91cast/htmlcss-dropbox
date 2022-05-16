@@ -47,8 +47,23 @@ a {
     text-decoration: none;
     color: dimgrey;
 }
-.btn a{
+
+.btn a {
     background-color: #0560FB;
     color: white;
     padding: 10px 15px;
+}
+
+/* jumbo */
+
+.container-jumbo {
+    top: 80px;
+    display: flex;
+    position: relative;
+    background-color: #B4D0E7;
+    overflow-y: auto;
+}
+
+.img {
+    position: absolute;
 }
