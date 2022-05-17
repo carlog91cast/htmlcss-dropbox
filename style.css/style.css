@@ -44,7 +44,7 @@ li {
     padding: 0 18px;
 }
 
-a {
+li a {
     text-decoration: none;
     color: dimgrey;
 }
@@ -81,10 +81,11 @@ a {
 }
 
 
-h1 {
+.head-title {
 
     text-align: left;
-    font-size: 65px;
+    font-size: 33px;
+    margin-top: 65px;
 }
 
 .flexcontainer {
@@ -258,12 +259,72 @@ h3 {
     align-content: center;
     line-height: 26px;
 }
-.partners-text a{
+
+.partners-text a {
     border: black solid 1px;
     padding: 10px;
     width: 46%;
-    
+
 }
-.partners-text p{
+
+.partners-text p {
     margin-bottom: 40px;
+}
+
+/* task */
+
+.title {
+    max-width: 70%;
+    margin: 0 auto;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.tasks {
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+.card-container {
+    width: 100%;
+    display: flex;
+
+}
+
+.tasks-card {
+    padding: 15px;
+    margin: 10px 5px 10px 5px;
+}
+
+.tasks-card img {
+    width: 100%;
+}
+
+.tasks-card h3 {
+    font-size: 20px;
+}
+
+/* users */
+
+.clients {
+    max-width: 70%;
+    margin: 70px auto 70px auto;
+
+}
+
+.clients a {
+    color: #0560FB;
+}
+
+
+/* footer */
+
+footer {
+    background-color: black;
+}
+
+.foot-container {
+    max-width: 70%;
+    margin: 0 auto;
+    margin-top: 10px;
 }
