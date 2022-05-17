@@ -136,7 +136,7 @@ h2 {
 
 }
 
-.fatturazione{
+.fatturazione {
     margin: 50px 0;
 }
 
@@ -194,31 +194,37 @@ hr {
     margin: 40px 0;
 }
 
-.team{
+/* team */
+
+.team {
     max-width: 70%;
     margin: 0 auto;
     margin-top: 5%;
 }
 
-.enterprise{
+.enterprise {
     text-align: center;
     padding: 12px 12px;
     border: lightgrey solid 1px;
 }
-.content-enterprise{
+
+.content-enterprise {
     padding: 35px 35px;
     border: lightgray solid 1px;
     line-height: 40px;
     position: relative;
 }
-h3{
-  font-size: 25px
+
+h3 {
+    font-size: 25px;
+    margin-bottom: 20px;
 }
-.content-enterprise p{
+
+.content-enterprise p {
     margin-top: 40px;
 }
 
-.team-button{
+.team-button {
     position: absolute;
     background-color: #0560FB;
     color: white;
@@ -226,8 +232,38 @@ h3{
     width: 30%;
     text-align: center;
     top: 35px;
-    right:35px;
+    right: 35px;
 
 }
 
+/* partners */
 
+.partners {
+    max-width: 100%;
+    margin: 0 auto;
+    margin-top: 15%;
+    display: flex;
+    justify-content: center;
+}
+
+.partners-img {
+    width: 60%;
+}
+
+.partners-text {
+    display: flex;
+    width: 40%;
+    padding: 45px;
+    flex-direction: column;
+    align-content: center;
+    line-height: 26px;
+}
+.partners-text a{
+    border: black solid 1px;
+    padding: 10px;
+    width: 46%;
+    
+}
+.partners-text p{
+    margin-bottom: 40px;
+}
