@@ -136,6 +136,10 @@ h2 {
 
 }
 
+.fatturazione{
+    margin: 50px 0;
+}
+
 .plans-container {
     width: 100%;
     display: flex;
@@ -182,9 +186,48 @@ h2 {
 .features>i {
     display: inline-block;
     width: 10%;
+    color: #0560FB;
 }
 
 hr {
     width: 20%;
     margin: 40px 0;
 }
+
+.team{
+    max-width: 70%;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+
+.enterprise{
+    text-align: center;
+    padding: 12px 12px;
+    border: lightgrey solid 1px;
+}
+.content-enterprise{
+    padding: 35px 35px;
+    border: lightgray solid 1px;
+    line-height: 40px;
+    position: relative;
+}
+h3{
+  font-size: 25px
+}
+.content-enterprise p{
+    margin-top: 40px;
+}
+
+.team-button{
+    position: absolute;
+    background-color: #0560FB;
+    color: white;
+    padding: 5px 10px 5px 10px;
+    width: 30%;
+    text-align: center;
+    top: 35px;
+    right:35px;
+
+}
+
+
