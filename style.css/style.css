@@ -33,12 +33,12 @@
     padding-right: 20px;
 }
 
-ul {
+.nav ul {
     display: flex;
 
 }
 
-li {
+.nav ul li {
     display: inline-block;
     list-style: none;
     padding: 0 18px;
@@ -324,7 +324,36 @@ footer {
 }
 
 .foot-container {
-    max-width: 70%;
+    max-width: 84%;
     margin: 0 auto;
     margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.foot-box ul li {
+    color: white;
+    list-style: none;
+    padding: 10px 0 10px 0;
+}
+
+.foot-box ul {
+    margin: 40px;
+}
+
+.headlist {
+    margin-bottom: 15px;
+}
+
+.line hr {
+    width: 11%;
+    margin: 0 auto;
+    margin-left: 192px;
+
+}
+
+.language p {
+    color: lightgray;
 }
