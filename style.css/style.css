@@ -8,6 +8,9 @@
 
 /* header */
 
+a {
+    text-decoration: none;
+}
 
 .container {
     width: 100%;
@@ -173,8 +176,18 @@ h2 {
     margin-bottom: 30px;
 }
 
+.content-plan p {
+    margin-bottom: 12px;
+}
+
+.content-plan p a {
+    text-decoration: underline;
+    color: #0560FB;
+}
+
+
 .features {
-    margin: 20px 0;
+    margin: 25px 0;
     display: flex;
     align-items: flex-start;
 }
@@ -182,6 +195,7 @@ h2 {
 .features>span {
     display: inline-block;
     width: 80%;
+
 }
 
 .features>i {
@@ -190,7 +204,7 @@ h2 {
     color: #0560FB;
 }
 
-hr {
+.first-line {
     width: 20%;
     margin: 40px 0;
 }
@@ -218,7 +232,7 @@ hr {
 
 h3 {
     font-size: 25px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .content-enterprise p {
@@ -261,7 +275,8 @@ h3 {
 }
 
 .partners-text a {
-    border: black solid 1px;
+    color: darkgrey;
+    border: darkgray solid 1px;
     padding: 10px;
     width: 46%;
 
@@ -314,6 +329,7 @@ h3 {
 
 .clients a {
     color: #0560FB;
+    text-decoration: underline;
 }
 
 
@@ -349,8 +365,15 @@ footer {
 
 .line hr {
     width: 11%;
+    margin: 50px auto;
+    margin-left: 175px;
+
+}
+
+.language {
+    max-width: 75%;
     margin: 0 auto;
-    margin-left: 192px;
+
 
 }
 
