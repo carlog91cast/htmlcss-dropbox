@@ -3,7 +3,9 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+        /* font cercasi disperatamente */
 }
+
 
 
 /* header */
@@ -58,6 +60,7 @@ header {
     box-shadow: 0px 8px 16px 0px rgba(129, 125, 125, 0.6);
     padding: 12px 16px;
     z-index: 1;
+    /* il dropdown più improvvisato della storia */
 }
 
 .dropdown:hover .dropdown-content {
@@ -381,6 +384,8 @@ h3 {
 .square img {
     width: 50%;
 
+    /* non sono riuscito a render le icone di colore bianche, ho cercato in internet per render le svg ma non ingranano (anche se il nero non è male, sfina) */
+
 }
 
 .square-content-left,
@@ -544,4 +549,27 @@ footer {
 .language p {
     color: lightgray;
     margin-left: 10px;
+}
+
+/* faq */
+
+.faq-content{
+    max-width: 70%;
+    margin: 60px auto;
+}
+.request{
+    margin: 20px 0 55px 0;
+}
+
+.faq-request{
+    padding: 35px;
+    position: relative;
+}
+.faq-request i{
+    position:absolute;
+    right: 0;
+    bottom: 35px;
+}
+.faq-request hr{
+    margin: 20px
 }
