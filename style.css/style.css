@@ -36,6 +36,26 @@ a {
     padding-right: 20px;
 }
 
+ /* dropdown */
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    position: absolute;
+    display: none;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
 .nav ul {
     display: flex;
 
@@ -194,8 +214,8 @@ h2 {
 
 .features>span {
     display: inline-block;
-    width: 80%;
-
+    width: 90%;
+    font-size: 14px;
 }
 
 .features>i {
@@ -323,7 +343,7 @@ h3 {
 
 .clients {
     max-width: 70%;
-    margin: 70px auto 70px auto;
+    margin: 70px auto 140px auto;
 
 }
 
@@ -331,6 +351,73 @@ h3 {
     color: #0560FB;
     text-decoration: underline;
 }
+
+/* squares */
+
+.main-content {
+    display: flex;
+}
+
+.square {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.square img {
+    width: 50%;
+
+}
+
+.square-content-left,
+.square-content-center,
+.square-content-right {
+    display: flex;
+    flex-wrap: wrap;
+    width: calc(100% / 3);
+    height: calc(100vw / 3);
+}
+
+.designit {
+    background-color: #A3D49C;
+
+}
+
+.designit:hover {
+    border: #c6e3c3 solid 10px;
+}
+
+.asu {
+    background-color: #621927;
+}
+
+.uf {
+    background-color: #3495CF;
+}
+
+.topps {
+    background-color: #ED462F;
+}
+
+.wbr {
+    background-color: #D83F2A;
+}
+
+.hc {
+    background-color: #B5D1E8;
+}
+
+.lp {
+    background-color: #062182;
+}
+
+.cco {
+    background-color: #FDD933;
+}
+
+
 
 
 /* footer */
@@ -342,7 +429,6 @@ footer {
 .foot-container {
     max-width: 84%;
     margin: 0 auto;
-    margin-top: 10px;
     display: flex;
     justify-content: center;
 }
@@ -373,21 +459,17 @@ footer {
 .language {
     max-width: 75%;
     margin: 0 auto;
+    display: flex;
 
 
+}
+
+.language i {
+    font-size: 20px;
+    color: white;
 }
 
 .language p {
     color: lightgray;
-}
-
-/* squares */
-
-.main-content{
-    display: flex;
-}
-.square {
-    padding: 20px;
-}
-.square-content-left{
+    margin-left: 10px;
 }
