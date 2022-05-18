@@ -380,3 +380,14 @@ footer {
 .language p {
     color: lightgray;
 }
+
+/* squares */
+
+.main-content{
+    display: flex;
+}
+.square {
+    padding: 20px;
+}
+.square-content-left{
+}
