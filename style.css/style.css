@@ -571,5 +571,16 @@ footer {
     bottom: 35px;
 }
 .faq-request hr{
+    
     margin: 20px
+}
+/* faq hover */
+
+.hidden{
+    display: none;
+    margin: 10px 0 10px 0;
+}
+
+.faq-request:hover .hidden{
+    display: block;
 }
