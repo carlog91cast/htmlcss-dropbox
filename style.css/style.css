@@ -551,36 +551,62 @@ footer {
     margin-left: 10px;
 }
 
+/* free trial */
+
+.free-trial {
+    background-color: #B4D0E7
+}
+
+.business {
+    width: 70%;
+    margin: 0 auto;
+    padding: 10%;
+}
+.business h2{
+    color: #621927;
+}
+.business-button{
+    background-color: white;
+    color: black;
+    padding: 10px 15px;
+    width: 20%;
+}
+
 /* faq */
 
-.faq-content{
+.faq-content {
     max-width: 70%;
     margin: 60px auto;
 }
-.request{
+
+.request {
     margin: 20px 0 55px 0;
 }
 
-.faq-request{
+.faq-request {
     padding: 35px;
     position: relative;
 }
-.faq-request i{
-    position:absolute;
+
+.faq-request i {
+    position: absolute;
     right: 0;
     bottom: 35px;
 }
-.faq-request hr{
-    
+
+.faq-request hr {
+
     margin: 20px
 }
+
 /* faq hover */
 
-.hidden{
+.hidden {
     display: none;
     margin: 10px 0 10px 0;
 }
 
-.faq-request:hover .hidden{
+.faq-request:hover .hidden {
+    transition: 5s;
     display: block;
 }
