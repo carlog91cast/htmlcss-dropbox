@@ -12,11 +12,18 @@ a {
     text-decoration: none;
 }
 
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
 .container {
     width: 100%;
     display: flex;
     justify-content: space-between;
     padding: 25px;
+    background-color: white;
 
 
 }
@@ -36,7 +43,7 @@ a {
     padding-right: 20px;
 }
 
- /* dropdown */
+/* dropdown */
 
 .dropdown {
     position: relative;
@@ -47,13 +54,18 @@ a {
     position: absolute;
     display: none;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 8px 16px 0px rgba(129, 125, 125, 0.6);
     padding: 12px 16px;
     z-index: 1;
 }
 
 .dropdown:hover .dropdown-content {
     display: block;
+}
+
+.nav {
+    display: flex;
 }
 
 .nav ul {
@@ -93,7 +105,7 @@ li a {
 
 .container-jumbo {
     width: 100%;
-    padding: 20px 0 50px 0;
+    padding: 90px 0 50px 0;
     background-color: #B4D0E7;
 }
 
@@ -372,12 +384,35 @@ h3 {
 }
 
 .square-content-left,
-.square-content-center,
 .square-content-right {
     display: flex;
     flex-wrap: wrap;
     width: calc(100% / 3);
     height: calc(100vw / 3);
+}
+
+.centerbox {
+    width: calc(100% / 3);
+    height: calc(100vw / 3);
+    background-color: #F5F5F5;
+}
+
+.center {
+    width: 100%;
+    padding: 15px;
+    font-size: 12px;
+    margin: 0 10px 0 10px;
+}
+
+.icon {
+    width: 65%;
+    padding: 35px;
+    margin-left: -7px;
+}
+
+.rule {
+    width: 30%;
+
 }
 
 .designit {
@@ -386,35 +421,72 @@ h3 {
 }
 
 .designit:hover {
-    border: #c6e3c3 solid 10px;
+    transition: 2s;
+    border: #c6e3c3 solid 25px;
 }
 
 .asu {
     background-color: #621927;
 }
 
+.asu:hover {
+    transition: 2s;
+    border: #efa9b7 solid 25px;
+}
+
+
 .uf {
     background-color: #3495CF;
+}
+
+.uf:hover {
+    transition: 2s;
+    border: #8bc7ea solid 25px;
 }
 
 .topps {
     background-color: #ED462F;
 }
 
+.topps:hover {
+    transition: 2s;
+    border: #eebfb9 solid 25px;
+}
+
 .wbr {
     background-color: #D83F2A;
+}
+
+.wbr:hover {
+    transition: 2s;
+    border: #f4c9c3 solid 25px;
 }
 
 .hc {
     background-color: #B5D1E8;
 }
 
+.hc:hover {
+    transition: 2s;
+    border: #d6e7f2 solid 25px;
+}
+
 .lp {
     background-color: #062182;
 }
 
+.lp:hover {
+    transition: 2s;
+    border: #6a85e8 solid 25px;
+}
+
 .cco {
     background-color: #FDD933;
+}
+
+.cco:hover {
+    transition: 2s;
+    border: #f7e499 solid 25px;
 }
 
 
